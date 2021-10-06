@@ -3,7 +3,7 @@ from arcgis.gis import GIS
 from arcgis.features import FeatureLayerCollection
 
 
-gis = GIS("https://www.arcgis.com","fferraz46","f91825201M30")
+gis = GIS("https://www.arcgis.com","usuário","senha")
 print("Conexão realizada com sucesso!",gis)
 
 layerSearch = gis.content.search(query="novo", item_type="Feature Layer")
